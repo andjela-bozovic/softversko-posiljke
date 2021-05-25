@@ -1,0 +1,8 @@
+.MuiPaper-root {
+    max-width: 275px !important;
+    margin-left: 15px;
+}
+
+.title {
+    font-size: 14px !important;
+}

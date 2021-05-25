@@ -1,0 +1,72 @@
+select {
+    padding: 8px 12px;
+    color: #333333;
+    background-color: #eeeeee;
+    border: 1px solid #dddddd;
+    cursor: pointer;
+    border-radius: 5px;
+
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="50"><polygon points="0,0 100, 0 50, 50" style="fill:%23f79000;" /></svg>');
+    background-position: right 10px top 50%;
+    background-repeat: no-repeat;
+    background-size: 10px;
+    padding-right: 30px;
+}
+
+select:focus,
+select:hover {
+    outline: none;
+    border: 1px solid #bbbbbb;
+}
+
+select option {
+    background: #ffffff;
+}
+
+.color {
+    color: #f79000;
+}
+
+.background-color {
+    background-color: #f79000;
+}
+
+.filter-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.filter-item {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.filter-title {
+    letter-spacing: 2px;
+    font-weight: 600;
+    font-size: 120%;
+}
+
+.MuiRadio-colorSecondary.Mui-checked, .MuiFormLabel-root {
+    color: #f79000 !important;
+}
+.MuiFormGroup-root {
+    padding-left: 15px !important;
+}
+
+.MuiTypography-body1{
+    font-size: 0.9rem !important; 
+    white-space: nowrap;
+}
+
+.MuiButton-contained {
+    background-color: #f79000 !important;
+    color: white !important;
+}
+
+.MuiButtonBase-root {
+    margin-left: 15px !important;
+}
